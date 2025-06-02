@@ -1,0 +1,29 @@
+PODS:
+  - applovinmax (1.0):
+    - AppLovinSDK (= 13.3.0)
+  - AppLovinSDK (13.3.0)
+  - shared (1.0)
+
+DEPENDENCIES:
+  - applovinmax (from `../applovinmax`)
+  - AppLovinSDK
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - AppLovinSDK
+
+EXTERNAL SOURCES:
+  applovinmax:
+    :path: "../applovinmax"
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  applovinmax: 26e5319fa0cba6577fa8b690f8acd82003c82ce1
+  AppLovinSDK: 5ed9dbada0de5a80e4546116994470011ed01f53
+  shared: 96c066cfd2b0eab0963c51fee6cb6673e8cbba1a
+
+PODFILE CHECKSUM: c3dd25e677b82e2b36a28f31891208946d1ff7b3
+
+COCOAPODS: 1.16.2

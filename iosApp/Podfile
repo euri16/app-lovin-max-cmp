@@ -1,0 +1,9 @@
+target 'iosApp' do
+  use_frameworks!
+  platform :ios, '16.0'
+
+  pod 'AppLovinSDK'
+
+  pod 'shared', :path => '../shared'
+  pod 'applovinmax', :path => '../applovinmax'
+end
